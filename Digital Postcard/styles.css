@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.postcard {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-image: url('https://i.redd.it/89rto63pmg2b1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.post-header h1 {
+    color: white;
+    font-size: 36px;
+    margin: 2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo-img img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 60px; 
+    position: absolute;
+    top: 60px; 
+    right: 20px; 
+}
+
+.input-fields input {
+    width: 200px;
+    padding: 5px;
+    margin: 10px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+
+.post-body {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+}
+
+.post-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #545454;
+}
